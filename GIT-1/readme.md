@@ -106,3 +106,20 @@ git status
 ![screenshot](images/p5.png)
 
 ## 12.adım: backend adında branch oluşturalım. bu branche bir takım dizinler ekleyelim. commit yapalım merge işleminde fast-forward yapalım 
+
+```bash
+git add .
+git commit -m "merge öncesinde commit"
+git branch backend
+git checkout backend
+git add .
+git commit -m "backend"
+git checkout main
+git merge backend
+```
+![screenshot](images/p6.png)
+
+##  13.adım: Git GUI ve Git CLI nedir ? 
+
+- Git GUI: Git komutlarını görsel bir arayüz üzerinden kullanmanı sağlayan, işlemleri interactive yapabileceğin bir yazılımdır.
+- Git CLI: Git komutlarını terminal veya komut satırı üzerinden yazarak kullanmanı sağlayan, daha doğrudan ve esnek bir yöntemdir.
