@@ -72,3 +72,35 @@ git push -u origin main
 ```bash
 git clone https://github.com/wellpast/devops_project
 ```
+
+## 10.adım: en son commitimizin commit içeriğini değiştirilelim.
+
+```bash
+git add
+```
+
+```bash
+git commit --amend
+```
+
+```bash
+git push --force
+```
+![screenshot](images/p3.png)
+
+
+## 11.adım: git log ve git status ne iş yapıyordu ?
+
+- git log: Depodaki commit geçmişini gösterir, yani hangi değişikliklerin, kim tarafından, ne zaman yapıldığını listeleyen bir günlük sunar.
+
+- git status: Çalışma dizinindeki değişikliklerin durumunu gösterir, yani hangi dosyaların değiştirildiğini, stage edilip edilmediğini ve hangi branch'te olduğunu bildirir.
+
+```bash
+git log
+```
+![screenshot](images/p4.png)
+
+```bash
+git status
+```
+![screenshot](images/p5.png)
