@@ -176,3 +176,10 @@ ssh -T git@github.com
 ![screenshot](images/p12.png)
 ![screenshot](images/p13.png)
 ![screenshot](images/p14.png)
+
+
+## 16.adım: git stash nedir ?
+
+- git stash: Üzerinde çalıştığın ve henüz commit etmediğin değişiklikleri geçici olarak saklayıp çalışma dizinini temizlemeni sağlayan bir Git komutudur, böylece başka bir branch'e geçiş yapabilirsin.
+
+## 17.adım: projelerimizi pushlama yaparken acil.txt adında bir iş geldi ve bu iş öncelik olduğu söylendi var olan add yapılmış dosyalarımızı commitleme yapmadan özel bir alanda saklama yapalım tabi bunu git stash ile yapalım.
