@@ -130,10 +130,41 @@ git merge backend
 
 
 ```bash
+git checkout -b frontend
+git status
 git add .
 git commit -m "merge öncesinde commit"
-git branch frontend
-git checkout frontend
-git add .
-git commit -m " frontend "
+git merge fronend --no-ff
+```
+
+![screenshot](images/p7.png)
+
+## 15.adım: Başka bir github repository açalım ve bu sefer derste öğrendiğimiz SSH-KEY ile github veri gönderme yapalım
+
+
+```bash
+cd ~/.ssh
+```
+
+```bash
+mkdir ~/.ssh
+> cd ~/.ssh
+```
+
+```bash
+ssh-keygen -t rsa -C "Ramazan Akkulak"
+```
+
+Enter file in which to save the key (/Users/YourName/.ssh/id_rsa): [Press enter]
+
+```bash
+nano config
+```
+
+```bash
+IdentityFile ~/.ssh/'Ramazan Akkulak'
+```
+
+```bash
+ssh -T git@github.com 
 ```
