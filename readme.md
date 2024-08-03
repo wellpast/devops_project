@@ -437,11 +437,7 @@ Kanban: İş akışını görselleştiren ve işlerin sürekli olarak akmasını
   <hr style="width: 100%; border: 1px solid #000;"/>
 </p>
 
-<p align="center">
-  <strong style="font-size: 60px;">Jenkins-SecOps</strong>
-</p>
-
-
+# Jenkins-SecOps
 
 ![IMAGE](./doc/p1.png)
 
