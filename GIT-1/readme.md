@@ -35,3 +35,40 @@ DevOps öğreniyorum.
 ```
 
 ![screenshot](images/p1.png)
+
+
+## 7.adım: Git staged area ve unstaged area nedir ?
+
+- Staged Area: Git'te, bir sonraki commit'e dahil edilmek üzere seçtiğin değişikliklerin bulunduğu alandır.
+
+- Unstaged Area: Dosyalarda yapılan değişikliklerin kaydedildiği ancak henüz commit'e eklenmek üzere seçilmediği alandır.
+
+## 8.adım: bu dizindeki dosyaları oluşturduğumuz github repository gönderelim. NOT: main adında branch
+oluşturalım.
+
+```bash
+git add .
+```
+
+```bash
+git commit -m "first commit"
+```
+
+```bash
+git branch -M "main"
+```
+
+```bash
+git remote add origin https://github.com/wellpast/devops_project.git
+```
+```bash
+git push -u origin main
+```
+![screenshot](images/p2.png)
+
+
+## 9.adım: oluşturduğumuz github repository local bilgisarımızda bir yere clone yapalım
+
+```bash
+git clone https://github.com/wellpast/devops_project
+```
