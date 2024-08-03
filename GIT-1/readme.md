@@ -168,3 +168,11 @@ IdentityFile ~/.ssh/'Ramazan Akkulak'
 ```bash
 ssh -T git@github.com 
 ```
+
+![screenshot](images/p8.png)
+![screenshot](images/p9.png)
+![screenshot](images/p10.png)
+![screenshot](images/p11.png)
+![screenshot](images/p12.png)
+![screenshot](images/p13.png)
+![screenshot](images/p14.png)
