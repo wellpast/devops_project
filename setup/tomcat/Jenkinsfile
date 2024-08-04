@@ -1,0 +1,21 @@
+pipeline {
+    agent any
+
+    stages 
+
+        stage('Deploy Dev Stage on docker') {
+            steps {
+                sh "setup/tomcat/docker-compose down"
+                sh "setup/tomcat/docker-compose up -d"
+            }
+        }
+
+    post {
+        success {
+            echo 'Pipeline succeeded!'
+        }
+        failure {
+            echo 'Pipeline failed!'
+        }
+    }
+}
