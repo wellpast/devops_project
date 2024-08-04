@@ -5,8 +5,10 @@ pipeline {
 
         stage('Deploy Dev Stage on docker') {
             steps {
-                sh "setup/tomcat/docker-compose down"
-                sh "setup/tomcat/docker-compose up -d"
+                dir('setup/tomcat') {
+                    sh 'docker-compose down'
+                    sh 'docker-compose up -d'
+                }
             }
         }
     }
