@@ -1,7 +1,7 @@
 pipeline {
     agent any
 
-    stages 
+    stages {
 
         stage('Deploy Dev Stage on docker') {
             steps {
@@ -9,7 +9,7 @@ pipeline {
                 sh "setup/tomcat/docker-compose up -d"
             }
         }
-
+    }
     post {
         success {
             echo 'Pipeline succeeded!'
